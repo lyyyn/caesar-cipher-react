@@ -29,7 +29,7 @@ export default class DecodeBox extends Component {
                 <h4>Message</h4>
                 <textarea rows="8" aria-multiline autoFocus onKeyUp={(event) => this.handleChange(event)}></textarea>
                 <h4>Decrypted Message</h4>
-                <p>{this.state.decMessage}</p>
+                <p>{this.state.decMessage}&nbsp;</p>
             </div>
         )
     }
