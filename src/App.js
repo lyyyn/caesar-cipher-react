@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import './AppSetting.js';
 import DisplayHeader from './DisplayHeader';
 import DisplayEncodeBox from './EncodeBox';
 import DisplayDecodeBox from './DecodeBox';
