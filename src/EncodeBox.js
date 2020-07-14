@@ -27,7 +27,7 @@ export default class EncodeBox extends Component {
             <div className="box enc">
                 <h2>ENCODE</h2>
                 <h4>Message</h4>
-                <textarea rows="8" aria-multiline autoFocus onKeyUp={(event) => this.handleChange(event)}></textarea>
+                <textarea rows="8" aria-multiline autoFocus onChange={(event) => this.handleChange(event)}></textarea>
                 <h4>Encrypted Message</h4>
                 <p>{this.state.encMessage}&nbsp;</p>
             </div>
